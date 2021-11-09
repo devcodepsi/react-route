@@ -9,6 +9,7 @@ export default function Invoices() {
     <div>
       <Header />
       <nav>
+        <h2>Invoices</h2>
         {invoices.map((invoice) => (
           <NavLink
             className={({ isActive }) => (isActive ? 'red' : 'blue')}

@@ -11,7 +11,7 @@ export default function Invoice() {
   return (
     <div>
       <Header />
-      <main style={{ padding: '1rem' }}>
+      <main>
         <h2>Total Due: {invoice.amount}</h2>
         <p>
           {invoice.name}: {invoice.number}

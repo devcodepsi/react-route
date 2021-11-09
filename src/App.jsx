@@ -7,6 +7,9 @@ export default function App() {
   return (
     <div>
       <Header />
+      <main>
+        <h3>Index Page</h3>
+      </main>
       <Outlet />
     </div>
   );
